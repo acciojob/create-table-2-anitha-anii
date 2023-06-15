@@ -7,9 +7,9 @@ let table = document.getElementById('myTable');
 for (let i = 0; i < promptValue; i++) {
    let Row = table.insertRow(i);
    
-for (let j = 0;  j< 3; j++) {
+for (let j = 0;  j<=2; j++) {
     let data =Row.insertCell(j);
-    data.innerText = `Row-${i} ,Column-${j}`;
+    data.innerText = `Row-${i} Column-${j}`;
   
 }
 }
